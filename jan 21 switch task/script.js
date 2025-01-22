@@ -217,3 +217,58 @@ else{
     console.log("your not allowed so Access Denied");    
 }
 
+//task9 Student Grade  (22/1)
+console.log("Student Grade");
+let marks = 34;
+if(marks>=35 && marks<=100){
+    if(marks>=81 && marks<=100){
+        console.log("The grade was A");
+    }
+    else if(marks>=71  && marks<=80){
+        console.log("The grade was B");
+    }
+    else if(marks>=61 &&  marks<=70){
+        console.log("The grade was C");
+    }
+    else if(marks>=51 && marks<=60){
+        console.log("The grade was D");
+    }
+    else{
+        console.log("The grade was E");
+    }
+}
+else if(marks<=34){
+    console.log("The grade was FAIL");
+}
+else{
+    console.log("enter a valid marks");  
+}
+
+//TASK10 User Role Authorization (22/1)
+console.log("User Role Authorization");
+var userRole = "gamer";
+var userLevel = "";
+if(userRole == "admin"){
+    console.log("All access available and no authorization needed");
+}
+else if(userRole=="gamer"){
+    if(userLevel=="gold"){
+        console.log("Your membership was gold so you can play any games");
+    }
+    else if(userLevel=="silver"){
+        console.log("Your membership was silver so you can play only 20games");
+    }
+    else if(userLevel=="bronze"){
+        console.log("Your membership was bronze so you can play only 7games");
+    }
+    else{
+        console.log("Please renew your membership and get authorization from admins");
+    }
+}
+else if(userRole=="viewer"){
+    console.log("you role was viewer so you can only view the website");
+}
+else{
+    console.log("Access Denied & Role Authorization needed");
+    
+}
