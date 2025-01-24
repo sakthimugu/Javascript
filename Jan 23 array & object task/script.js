@@ -7,14 +7,22 @@ for(i=0;i<bikeCompany.length;i++){
 }
 
 
+//task 2
+console.log("Task 2 // Print array in reverse");
+for(j=bikeCompany.length;j>0;j--){
+    let biker = bikeCompany[j];
+    console.log(biker);
+}
+
+
 //task3
 
 console.log(("Task 3 // Maximum numbers in array"));
-let values = [1,2,3,15,17,90,105,4,205];
+let values = [20,2,3,15,17,90,105,4,205];
 let temp_Max = values[0];
 console.log(values);
 for(max=0;max<values.length;max++){
-    if(values[max]>temp_Max){
+    if(values[max]>temp_Max){ 
         temp_Max=values[max];
     }
 }
@@ -32,28 +40,12 @@ for(min=0;min<values.length;min++){
 console.log(temp_Min);
 
 
-
-//task5
-// console.log("Task 5 // Find vowels in string");
-// let vowels = ['a','e','i','o','u'];
-// let sampleString = ['m','u','g','u','n','t','h','a','n'];
-// for(s=0;s<vowels.length;s++){
-//     myVowels = vowels[s];
-//     console.log(myVowels);
-// }
-// for(n=0;n<sampleString.length;n++){
-//     myNames = sampleString[n];
-//     console.log(myNames);
-// }
-
-
-
-//task6 
+//task 5
 console.log("Task 6 // Count digits in number");
 console.log(values);
 console.log(`The number of digits is ${values.length}`);
 
-//task7
+//task 6
 console.log("Task 7 // Sum of digits in number");
 console.log(values);
 let temp_A = 0;
@@ -64,7 +56,7 @@ for(z=0;z<values.length;z++){
 console.log(`The sum of digits is ${temp_A}`);
 
 
-//task 8
+//task 7
 console.log("Task 8 // Print all Elements of an object");
 let obj = {
     Name : "Mugunthan",
@@ -79,7 +71,7 @@ for(a=0;a<obj_values.length;a++){
     console.log(object);
 }
 
-//task 9
+//task 8
 console.log("Task 9 // Fibonnaci Series using array");
 let givenNumber = 10;
 let Fibo = [0,1];
@@ -91,3 +83,4 @@ for(k=0;k<Fibo.length;k++){
     let Fibonnaci = Fibo[k];
     console.log(Fibonnaci);
 }
+
