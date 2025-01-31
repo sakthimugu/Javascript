@@ -27,9 +27,9 @@ console.log(task4);
 //task 5
 let task5 =  ["Apple","Banana","Orange"];
 console.log("Task 5 : Extract first two elements in array :");
-for(i=0;i<2;i++){
-    console.log(fruits[i]);   
-}
+let a = task5.slice(0,2)
+console.log(a);
+
 
 //task 6
 console.log("Task 6 : Replace Banana with Strawberry in array :");
