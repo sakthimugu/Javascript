@@ -52,7 +52,7 @@ console.log(FilterChar);
 //Task 9
 console.log("Task 9 : Find fruits name start with letter O");
 let fruit1 = fruits.filter((val)=>{
-    return (val.startsWith('o'))            //doubt
+    return (val.startsWith('o'))           
 });
 console.log(fruit1);
 
