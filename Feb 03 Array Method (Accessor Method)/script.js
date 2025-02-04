@@ -50,16 +50,16 @@ console.log(FilterChar);
 
 
 //Task 9
-// console.log("Task 9 : Find fruits name start with letter O");
-// let fruit1 = fruits.filter((val)=>{
-//     return (val.includes('o'))            //doubt
-// });
-// console.log(fruit1);
+console.log("Task 9 : Find fruits name start with letter O");
+let fruit1 = fruits.filter((val)=>{
+    return (val.startsWith('o'))            //doubt
+});
+console.log(fruit1);
 
 //Task 10
 console.log("Task 10 : Join all elements into a single string");
 let fruitsss = fruit.concat(fruits);
-let fruitString = fruitsss.join();
+let fruitString = fruitsss.join(",");
 console.log(fruitString);
 
 //Task 11
