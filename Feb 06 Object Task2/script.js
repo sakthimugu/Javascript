@@ -38,8 +38,7 @@ let employee = {
     id : 123,
     name : "Alice"
 }
-let emp = Object.create(employee)
-console.log(employee.isPrototypeOf(emp));
+console.log('id' in employee);
 
 
 
